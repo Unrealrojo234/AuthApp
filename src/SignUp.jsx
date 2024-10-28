@@ -3,6 +3,7 @@ import Loader from "./Loader";
 import "./Loader.css";
 import Success from "./Popups/Success";
 import Error from "./Popups/Error";
+import { Link } from "react-router-dom";
 
 //API URL
 const api = import.meta.env.VITE_REACT_API_DET;
@@ -165,7 +166,7 @@ export default function SignUp() {
             </button>
           </div>
           <br />
-          <a href="/signIn">Already have an account?</a>
+          <Link to={"/signIn"}>Already have an account?</Link>
         </form>
       </div>
       <Success type="Sign Up" />

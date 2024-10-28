@@ -4,7 +4,7 @@ const App = () => {
     <div className="container-fluid">
       <h1 className="text-center text-primary">Authenticator & Authorizer</h1>
       <hr />
-      {<SignUp />}
+      <SignUp />
       <br />
     </div>
   );
