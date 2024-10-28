@@ -1,0 +1,7 @@
+.card {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}

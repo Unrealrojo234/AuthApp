@@ -1,0 +1,35 @@
+.loader {
+  border: 4px solid whitesmoke;
+  border-left-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.loader {
+  border: 2px solid whitesmoke;
+  border-left-color: transparent;
+  width: 18px;
+  height: 18px;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.loader {
+  border: 2px solid whitesmoke;
+  border-left-color: transparent;
+  width: 18px;
+  height: 18px;
+  animation: spin89345 1s linear infinite;
+}
+
+@keyframes spin89345 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
